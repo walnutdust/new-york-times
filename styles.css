@@ -1,0 +1,564 @@
+body{
+  margin-left: 25px;
+  border-left: solid 5px rgb(246,246,246);
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+#button-container img{
+  vertical-align: middle;
+}
+
+#search{
+  margin-left: 18px;
+}
+
+header{
+  height: 30px;
+  border-bottom: solid 1px rgb(204,204,204);
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 1320px;
+}
+#suggested{
+  border-bottom: solid 1px rgb(204,204,204);
+  box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06), inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+}
+
+.suggested-articles{
+  height: 60px;
+  padding-top: 12px;
+  padding-left: 10px;
+  width: 18%;
+  line-height: 16px;
+  display: inline-block;
+  border-right: solid 1px rgb(204,204,204);
+  margin: 5px auto;
+  font-family: georgia, "times new roman",times, serif;
+
+}
+
+.suggested-articles h1{
+  font-size: 13px;
+  font-weight: 300;
+  color: rgb(51,51,51);
+  font-style: normal;
+}
+
+#main-body{
+  height: 8862px;
+  width: 1125px;
+  border-top: solid 1px black;
+  margin-top: 2px;
+  margin-left: 85px;
+}
+
+h2 {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+h1 {
+  font-family: georgia, "times new roman",times, serif;
+  font-weight: 500;
+  font-size: 34px;
+  font-style: italic;
+}
+
+h3{
+  font-family: georgia, "times new roman",times, serif;
+  font-weight: 700;
+  font-size: 11px;
+  display: inline;
+}
+
+h4{
+  font-family: georgia, "times new roman",times, serif;
+  font-weight: 300;
+  font-size: 11px;
+  display: inline;
+}
+
+p{
+  font-family: georgia, "times new roman",times, serif;
+  font-weight: 400;
+  font-size: 17px;
+  display: block;
+  line-height: 26px;
+  max-width: 570px;
+  color: rgb(51,51,51);
+  margin-left: 70px;
+}
+
+#logo-container{
+  width: 1295px;
+  text-align: center;
+  display: block;
+}
+
+#logo{
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  right: 40px;
+  clear:none;
+}
+
+#button-container{
+  display: inline-block;
+  float:left;
+  position: relative;
+}
+
+#subscriber-container{
+  display: block;
+  float: right;
+  position: relative;
+}
+
+#settings{
+  vertical-align: middle;
+}
+
+#logos{
+  float: right;
+}
+
+#article-image{
+  margin-bottom: 60px;
+}
+
+#alan-guth{
+  margin-top: 20px;
+  width: 100%;
+}
+figure{
+  margin: 30px auto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  color: rgb(102, 102, 102);
+  font-family: georgia, "times new roman",times, serif;
+}
+
+h6{
+  display: inline;
+  color: rgb(153, 153, 153);
+  font-size: 11px;
+  font-weight: 400;
+}
+
+a{
+  color: rgb(50,104,145);
+}
+
+#sections{
+  border: solid 1px rgb(204,204,204);
+  position: relative;
+  right: 15px;
+  box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06), inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+}
+
+button{
+  background-color: rgb(98,136,165);
+  border-radius: 3px;
+  border: solid 1px rgb(77,123,159);
+  font-family: arial, helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color:white;
+  padding: 7px 9px;
+  height: 30px;
+  line-height: 13px;
+}
+
+#the-universe{
+  width: 100%;
+}
+
+#toi{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 10px;
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+#toi-footer{
+    margin:15px auto;
+}
+
+#theory-of-inflation h4{
+
+  font-family: arial, helvetica, sans-serif;
+  color: rgb(153,153,153);
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 300;
+}
+
+#toi-element{
+  margin-top: 142px;
+}
+
+#toi strong{
+  font-size: 10px;
+  font-family: arial,helvetica,sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.55px;
+}
+
+#toi p{
+  margin-left: 0;
+  font-size: 13px;
+  font-family: arial,helvetica,sans-serif;
+  line-height: 17px;
+  font-weight: 200;
+}
+
+#theory-of-inflation{
+  border-bottom: 1px solid rgb(226,226,226);
+  border-top: 1px solid rgb(226,226,226);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 945px;
+}
+
+#theory-of-inflation h1{
+  font-family: georgia,"times new roman",times,serif;
+  line-height: 1.5rem;
+  margin-bottom: 3px;
+  color: #333;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#theory-of-inflation h2{
+  font-family: georgia,"times new roman",times,serif;
+  line-height: 18px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: rgb(102,102,102);
+  font-style: normal;
+  font-weight: 400;
+}
+
+#comment{
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+#recent-comments{
+  float:right;
+  width: 360px;
+  margin-top: 75px;
+  font-weight: 700;
+  font-family: arial, helvetica, sans-serif;
+}
+
+#recent-comments h1{
+  display: inline-block;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 11px;
+  color: rgb(50,104,145);
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+#recent-comments h2{
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+
+#recent-comments h3{
+  display: inline-block;
+  color: rgb(153,153,153);
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 15px;
+  margin-bottom: 0px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+#recent-comments p{
+  margin-left: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0.8em;
+  color: rgb(102,102,102);
+  font-weight: 300;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+#recent-comments a{
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 22px;
+  color: rgb(50,104,145);
+}
+
+.see-all{
+  border-top: 1px solid rgb(226,226,226);
+  width: 100%;
+}
+
+#line{
+    width: 75px;
+    height: 0px;
+    border: 0.5px solid black;
+    margin-left: 70px;
+    margin-bottom: 17px;
+}
+
+h7{
+  color: rgb(153,153,153);
+  font-size: 11px;
+  font-family: arial, helvetica, sans-serif;
+  -webkit-margin-start: 0px;
+  margin-left: 70px;
+  display: block;
+  line-height: 15px;
+}
+
+h6 a{
+  text-decoration: none;
+  color: rgb(153,153,153);
+}
+
+#trending{
+  width: 360px;
+  float: right;
+  height: 608px;
+  margin-right: 100px;
+  border-top: solid 1px rgb(204,204,204);
+}
+
+#trending h1{
+  font-size: 11px;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 800;
+  line-height: 11px;
+  font-style: normal;
+}
+
+#trend{
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid rgb(243,243,243);
+}
+
+#count{
+  float: left;
+  width: 15px;
+  margin-right: 15px;
+  text-align: right;
+  font-size: 20px;
+  line-height: 19px;
+  transform: scaleY(2);
+}
+
+#count h2{
+    font-family: georgia,"times new roman",times,serif;
+    font-weight: 500;
+}
+
+#trend a{
+  clear: both;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#trend img{
+  float: right;
+  height: 40px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+#more{
+  margin-left: 70px;
+  width: 705px;
+  border-top: solid 1px rgb(204,204,204);
+}
+
+
+#list-more {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-left: 0px;
+  font-family: georgia,"times new roman",times,serif;
+}
+
+#list-more p{
+  margin-left: 0px;
+  color: rgb(102,102,102);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#list-more h3{
+  margin-left: 0px;
+  color: black;
+  width: 210px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+
+#more h1{
+  font-size: 17px;
+  font-family: arial, helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  width: 400px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#more a{
+  float: right;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  color: rgb(98,136,165);
+  text-decoration: none;
+}
+
+#more-header{
+  height: 31px;
+  padding-top: 9px;
+}
+
+#list-more h2{
+  font-size: 22px;
+  font-family: georgia,"times new roman",times,serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+footer{
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+#footer-border{
+  border-top: 2px solid rgb(226,226,226);
+  border-bottom: 1px solid rgb(226,226,226);
+  height: 1px;
+}
+
+
+
+#home-div{
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+#home-div a{
+  float:right;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  color: rgb(98,136,165);
+  text-decoration: none;
+}
+
+#nav{
+  display: grid;
+  grid-template-columns: repeat(5,165px) 235px;
+}
+
+#column{
+  height: 353px;
+  display: grid;
+  grid-template-rows: repeat(14,1fr);
+}
+
+#nav h1{
+  font-family: arial, helvetica, sans-serif;
+  font-size: 12px;
+  color: rgb(51,51,51);
+  font-weight: 800;
+  font-style: normal;
+}
+
+#column p{
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 18px;
+}
+
+#subscribe-column{
+  border-left: 1px solid rgb(226,226,226);
+  padding-left: 10px;
+  margin-left: 36px;
+}
+
+#subscribe-column h2{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+#subscribe-column img{
+  float:left;
+  margin-right: 10px;
+}
+
+#even-more-subscriptions{
+  padding-bottom: 4px;
+  border-bottom:1px solid rgb(226,226,226);
+  margin-bottom: 8px;
+}
+
+#subscribe-column p{
+  font-family: arial, helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 15px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+#misc{
+  border-top: 1px solid rgb(226,226,226);
+  margin-top: 40px;
+  height: 24px;
+  padding-top: 8px;
+  color: rgb(153,153,153);
+}
+
+#misc a{
+  color: rgb(153,153,153);
+  text-decoration: none;
+  font-size: 11px;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 400;
+}
+
+#site {
+  float:right;
+}
