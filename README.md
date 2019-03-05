@@ -1,6 +1,8 @@
 # New York Times Mock-up
 
-https://walnutdust.github.io/new-york-times/
+Garett Tok, 2019
+
+Hosted at: https://walnutdust.github.io/new-york-times/
 
 This project was to create a mockup of ![New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html) using HTML/CSS.
 
