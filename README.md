@@ -1,6 +1,6 @@
 # New York Times Mock-up
 
-Garett Tok, 2019
+Garett Tok, 2018
 
 Hosted at: https://walnutdust.github.io/new-york-times/
 
